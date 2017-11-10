@@ -35,7 +35,7 @@
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_LmwBYMWCEeerSaJlcwEqXg" name="MessageSend" covered="_1jpWkMWBEeerSaJlcwEqXg" message="_LmtlIMWCEeerSaJlcwEqXg"/>
     <message xmi:type="uml:Message" xmi:id="_LmtlIMWCEeerSaJlcwEqXg" name="Despliegue de Datos" messageSort="reply" receiveEvent="_LmxPgMWCEeerSaJlcwEqXg" sendEvent="_LmwBYMWCEeerSaJlcwEqXg"/>
     <message xmi:type="uml:Message" xmi:id="_POOeYMWCEeerSaJlcwEqXg" name="Iniciar Ignicion()" messageSort="asynchCall" receiveEvent="_POQTkMWCEeerSaJlcwEqXg" sendEvent="_POPsgMWCEeerSaJlcwEqXg"/>
-    <message xmi:type="uml:Message" xmi:id="_WU8CYMWCEeerSaJlcwEqXg" name="Aceleracion()" messageSort="asynchCall" receiveEvent="_WU93kMWCEeerSaJlcwEqXg" sendEvent="_WU9QgMWCEeerSaJlcwEqXg"/>
+    <message xmi:type="uml:Message" xmi:id="_WU8CYMWCEeerSaJlcwEqXg" name="Aceleracion1()" messageSort="asynchCall" receiveEvent="_WU93kMWCEeerSaJlcwEqXg" sendEvent="_WU9QgMWCEeerSaJlcwEqXg"/>
     <message xmi:type="uml:Message" xmi:id="_ZnpJQMWCEeerSaJlcwEqXg" name="Envio Datos Velocidad()" messageSort="asynchCall" receiveEvent="_Znq-cMWCEeerSaJlcwEqXg" sendEvent="_ZnqXYMWCEeerSaJlcwEqXg"/>
     <message xmi:type="uml:Message" xmi:id="_g2Z2AMWCEeerSaJlcwEqXg" name="Datos Velocidad Obtener()" messageSort="asynchCall" receiveEvent="_g2cSQMWCEeerSaJlcwEqXg" sendEvent="_g2bEIMWCEeerSaJlcwEqXg"/>
     <message xmi:type="uml:Message" xmi:id="_nIHrsMWCEeerSaJlcwEqXg" name="Modificar PWM()" messageSort="asynchCall" receiveEvent="_nIKH8MWCEeerSaJlcwEqXg" sendEvent="_nIJg4MWCEeerSaJlcwEqXg"/>
