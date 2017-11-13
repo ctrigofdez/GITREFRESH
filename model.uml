@@ -40,6 +40,28 @@
     <message xmi:type="uml:Message" xmi:id="_g2Z2AMWCEeerSaJlcwEqXg" name="Datos Velocidad Obtener()" messageSort="asynchCall" receiveEvent="_g2cSQMWCEeerSaJlcwEqXg" sendEvent="_g2bEIMWCEeerSaJlcwEqXg"/>
     <message xmi:type="uml:Message" xmi:id="_nIHrsMWCEeerSaJlcwEqXg" name="Modificar PWM()" messageSort="asynchCall" receiveEvent="_nIKH8MWCEeerSaJlcwEqXg" sendEvent="_nIJg4MWCEeerSaJlcwEqXg"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_sK9g8MiXEeeh_-KQIZN43A" name="Activity1" node="_XMkpMMicEeeh_-KQIZN43A _AaaDgMidEeeh_-KQIZN43A _Z6eSgMifEeeh_-KQIZN43A _fBDx0MifEeeh_-KQIZN43A _1JlvMMifEeeh_-KQIZN43A _34AdQMifEeeh_-KQIZN43A _98ST4MifEeeh_-KQIZN43A _B11_YMigEeeh_-KQIZN43A _D9wuIMigEeeh_-KQIZN43A _KHqroMigEeeh_-KQIZN43A">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_i9nG8MifEeeh_-KQIZN43A" target="_Z6eSgMifEeeh_-KQIZN43A" source="_XMkpMMicEeeh_-KQIZN43A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_lGF2YMifEeeh_-KQIZN43A" target="_fBDx0MifEeeh_-KQIZN43A" source="_Z6eSgMifEeeh_-KQIZN43A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_zYhaMMifEeeh_-KQIZN43A" target="_AaaDgMidEeeh_-KQIZN43A" source="_fBDx0MifEeeh_-KQIZN43A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_N3rZkMigEeeh_-KQIZN43A" target="_1JlvMMifEeeh_-KQIZN43A" source="_AaaDgMidEeeh_-KQIZN43A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_OWO90MigEeeh_-KQIZN43A" target="_34AdQMifEeeh_-KQIZN43A" source="_AaaDgMidEeeh_-KQIZN43A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_PKRC0MigEeeh_-KQIZN43A" target="_98ST4MifEeeh_-KQIZN43A" source="_1JlvMMifEeeh_-KQIZN43A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_P1M2MMigEeeh_-KQIZN43A" target="_98ST4MifEeeh_-KQIZN43A" source="_34AdQMifEeeh_-KQIZN43A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_QfESkMigEeeh_-KQIZN43A" target="_B11_YMigEeeh_-KQIZN43A" source="_98ST4MifEeeh_-KQIZN43A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_RDAtIMigEeeh_-KQIZN43A" target="_D9wuIMigEeeh_-KQIZN43A" source="_B11_YMigEeeh_-KQIZN43A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_SkYZQMigEeeh_-KQIZN43A" target="_KHqroMigEeeh_-KQIZN43A" source="_D9wuIMigEeeh_-KQIZN43A"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_XMkpMMicEeeh_-KQIZN43A" name="Ignicion" outgoing="_i9nG8MifEeeh_-KQIZN43A"/>
+    <node xmi:type="uml:JoinNode" xmi:id="_AaaDgMidEeeh_-KQIZN43A" name="Modulo Velocidad" incoming="_zYhaMMifEeeh_-KQIZN43A" outgoing="_N3rZkMigEeeh_-KQIZN43A _OWO90MigEeeh_-KQIZN43A"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_Z6eSgMifEeeh_-KQIZN43A" name="Recepcion Señales" incoming="_i9nG8MifEeeh_-KQIZN43A" outgoing="_lGF2YMifEeeh_-KQIZN43A"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_fBDx0MifEeeh_-KQIZN43A" name="Modulo de Comunicacion" incoming="_lGF2YMifEeeh_-KQIZN43A" outgoing="_zYhaMMifEeeh_-KQIZN43A"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_1JlvMMifEeeh_-KQIZN43A" name="Conversion Datos Velocidad" incoming="_N3rZkMigEeeh_-KQIZN43A" outgoing="_PKRC0MigEeeh_-KQIZN43A"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_34AdQMifEeeh_-KQIZN43A" name="Identificacion ID de comandos" incoming="_OWO90MigEeeh_-KQIZN43A" outgoing="_P1M2MMigEeeh_-KQIZN43A"/>
+    <node xmi:type="uml:JoinNode" xmi:id="_98ST4MifEeeh_-KQIZN43A" name="Actualizacion datos" incoming="_PKRC0MigEeeh_-KQIZN43A _P1M2MMigEeeh_-KQIZN43A" outgoing="_QfESkMigEeeh_-KQIZN43A"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_B11_YMigEeeh_-KQIZN43A" name="Modificar PWM" incoming="_QfESkMigEeeh_-KQIZN43A" outgoing="_RDAtIMigEeeh_-KQIZN43A"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_D9wuIMigEeeh_-KQIZN43A" name="Desplegar Velocidad" incoming="_RDAtIMigEeeh_-KQIZN43A" outgoing="_SkYZQMigEeeh_-KQIZN43A"/>
+    <node xmi:type="uml:FlowFinalNode" xmi:id="_KHqroMigEeeh_-KQIZN43A" name="Final" incoming="_SkYZQMigEeeh_-KQIZN43A"/>
+  </packagedElement>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_hJOg0MWBEeerSaJlcwEqXg">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hJPH4MWBEeerSaJlcwEqXg" source="http://www.eclipse.org/uml2/2.0.0/UML">
       <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
